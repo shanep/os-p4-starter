@@ -1,5 +1,7 @@
 # Project 4
 
+![project meme](meme.jpg)
+
 In this project you will implement a FIFO queue as a monitor that can be used to
 solve the bounded buffer problem. Your queue will have a fixed capacity and will
 block calling threads when it is full or empty. Bounded buffers are extremely
@@ -168,7 +170,6 @@ As an example:
 - [Using Locks](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks-usage.pdf)
 - [Locked Data Structures](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks-usage.pdf)
 - [POSIX Threads Programming](https://hpc-tutorials.llnl.gov/posix/)
-- [Debugging deadlocks]({% post_url 2021-2-16-dumping-deadlocked-threads-with-gdb %})
 
 Use a bash script to run your program in a loop to try and produce faults. You
 may want to modify the example below to set the command line arguments to random
